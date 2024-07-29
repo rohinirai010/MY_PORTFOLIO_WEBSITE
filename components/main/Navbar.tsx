@@ -29,7 +29,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-2 sm:ml-4 hidden lg:block text-gray-300">
-            Rohini's Portfolio
+            Rohini&apos;s Portfolio
           </span>
         </a>
 

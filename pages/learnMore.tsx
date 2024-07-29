@@ -84,7 +84,7 @@ const learnMore = () => {
             className="flex flex-row md:flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
           >
             <span>
-              Hi there! I'm <br />
+              Hi there! I&apos;m <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 flex">
                 <span className="flex">
                   {lettersPart1.map((letter, index) => (
@@ -112,7 +112,7 @@ const learnMore = () => {
             A passionate Web Developer and Designer dedicated to crafting beautiful and functional web experiences. With a keen eye for design and a love for clean, efficient code, I transform ideas into stunning, user-friendly websites.
           </motion.p>
 
-          <div className='flex flex-col gap-[2.5rem]'>
+          <div className="flex flex-col gap-[2.5rem]">
           <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -123,9 +123,9 @@ const learnMore = () => {
           </h1>
         </motion.div>
         <div>
-        <EducationContent year="2020-2024" name="Bachelor of Engineering (BE/Btech) in Computer Science" clgName='Terna Engineering College Nerul Navi Mumbai, Mumbai University'/>
-        <EducationContent year="2018-2020" name="HSC" clgName='Fr. Agnel Multipurpose School and Jr. College Vashi, Navi Mumbai'/>
-        <EducationContent year="2008-2018" name="SSC" clgName="Pune Vidyarthi Griha's Vidya Bhawan Nerul, Navi Mumbai"/>
+        <EducationContent year="2020-2024" name="Bachelor of Engineering (BE/Btech) in Computer Science" clgName="Terna Engineering College Nerul Navi Mumbai, Mumbai University"/>
+        <EducationContent year="2018-2020" name="HSC" clgName="Fr. Agnel Multipurpose School and Jr. College Vashi, Navi Mumbai"/>
+        <EducationContent year="2008-2018" name="SSC" clgName="Pune Vidyarthi Griha&apos;s Vidya Bhawan Nerul, Navi Mumbai"/>
         </div>
           </div>
 
