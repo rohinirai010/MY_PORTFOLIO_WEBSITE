@@ -26,7 +26,7 @@ const Projects = () => {
           src="/portfolio.png"
           title="Space Themed Portfolio Website"
           description="A visually striking portfolio website created with Next.js, featuring a space-themed design. The site showcases personal projects, skills, and achievements with a modern and interactive interface. Utilizes Next.js for server-side rendering and performance optimization, providing a smooth and engaging user experience."
-          site="https://space-themed-website.netlify.app"
+          site="https://rohinirai-portfolio.netlify.app/"
         />
         <ProjectCard
           src="/internship.png"
