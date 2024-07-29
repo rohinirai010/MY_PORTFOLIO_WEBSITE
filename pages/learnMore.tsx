@@ -1,6 +1,6 @@
-import Navbar from '@/components/main/Navbar';
-import StarsCanvas from '@/components/main/StarBackground';
-import React from 'react';
+import Navbar from "@/components/main/Navbar";
+import StarsCanvas from "@/components/main/StarBackground";
+import React from "react";
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
@@ -8,16 +8,16 @@ import {
   slideInFromTop,
 } from "@/utils/motion";
 
-import dynamic from 'next/dynamic';
-import Image from 'next/image';
-import { Socials } from '@/constants';
-import { BiHome } from 'react-icons/bi';
-import Footer from '@/components/main/Footer';
-import { SparklesIcon } from '@heroicons/react/24/solid';
-import { IoSchoolSharp } from 'react-icons/io5';
-import EducationContent from '@/components/sub/EducationContent';
+import dynamic from "next/dynamic";
+import Image from "next/image";
+import { Socials } from "@/constants";
+import { BiHome } from "react-icons/bi";
+import Footer from "@/components/main/Footer";
+import { SparklesIcon } from "@heroicons/react/24/solid";
+import { IoSchoolSharp } from "react-icons/io5";
+import EducationContent from "@/components/sub/EducationContent";
 
-const Star = dynamic(() => import('../components/main/StarBackground'), {
+const Star = dynamic(() => import("../components/main/StarBackground"), {
   ssr: false // Disable server-side rendering for this component
 });
 
@@ -39,7 +39,7 @@ const learnMore = () => {
   const lettersPart2 = namePart2.split("");
 
   return (
-    <div className='relative flex flex-col w-full h-full bg-[#030014] z-[0]'>
+    <div className="relative flex flex-col w-full h-full bg-[#030014] z-[0]">
       <StarsCanvas />
       <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
@@ -52,7 +52,7 @@ const learnMore = () => {
               className="cursor-pointer hover:animate-slowspin"
             />
             <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-              Rohini's Portfolio
+              Rohini&apos;s Portfolio
             </span>
           </a>
           <div className="h-full flex flex-row items-center justify-between md:mr-20">
