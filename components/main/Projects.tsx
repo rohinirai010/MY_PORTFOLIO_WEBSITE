@@ -40,6 +40,12 @@ const Projects = () => {
           description="An advanced machine learning application designed to recognize Marathi sign language gestures in real-time. Using deep learning models, the system translates sign language into text, facilitating communication for the hearing-impaired community. Built with cutting-edge ML techniques to ensure accurate and swift recognition."
           site="https://github.com/rohinirai010/Marathi-Sign-Language-Recognizer"
         />
+         <ProjectCard
+          src="/pgsImg.png"
+          title="PGS India Pvt. Ltd. - Leading Construction Solutions"
+          description="A modern and responsive website built for PGS India Pvt. Ltd., showcasing their construction services and projects. Developed using React and Tailwind CSS, this site highlights a clean, professional design with smooth navigation and a user-friendly interface."
+          site="https://pgsindia.co.in/"
+        />
         <ProjectCard
           src="/chatgptclone.png"
           title="Chat Gpt Clone"

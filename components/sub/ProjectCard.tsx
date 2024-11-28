@@ -20,7 +20,7 @@ const ProjectCard = ({ src, title, description, site }: Props) => {
   };
 
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] transform transition-transform duration-300 hover:-rotate-3">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] transform transition-transform duration-300 hover:animate-pulse">
       <Image
         src={src}
         alt={title}

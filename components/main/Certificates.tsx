@@ -1,12 +1,15 @@
-"use client"
+"use client";
 
-import Link from 'next/link';
-import React from 'react';
-import CertificateCard from '../sub/CertificateCard';
+import Link from "next/link";
+import React from "react";
+import CertificateCard from "../sub/CertificateCard";
 
 const Certificates = () => {
   return (
-    <div className="flex flex-col items-center justify-center" id="certificates">
+    <div
+      className="flex flex-col items-center justify-center"
+      id="certificates"
+    >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Certificates
       </h1>
@@ -30,6 +33,13 @@ const Certificates = () => {
           title="Hacktoberfest"
           description="Hacktoberfest is an annual, month-long event which occurs in October in which I participated and successfully contributed to open-source projects on GitHub by completing all 4 pull merge requests."
           link="https://www.holopin.io/@rohini_010#badges"
+        />
+        <CertificateCard
+          title="TCS iON National Qualifier Test (NQT) "
+          description="Achieved a strong performance in the TCS iON NQT, showcasing proficiency in
+ cognitive skills, problem-solving, and aptitude, validated for employability across
+ multiple industries."
+          link="https://drive.google.com/file/d/1OVia9YgDWDvLweHkdvt4VC0_U9vAMW57/view?usp=sharing"
         />
         <CertificateCard
           title="Great Learning: Introduction to ML"
